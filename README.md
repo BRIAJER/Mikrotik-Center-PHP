@@ -1,21 +1,18 @@
-# Sistema de gestión Mikrotik PHP
+# Mikrotik PHP management system
 
-Esta es la versión inicial del sistema de control de Mikrotik RouterBoard desde PHP.
+Mikrotik RouterBoard control system from PHP.
 
-El directorio includes debe colocarse en la raiz (C:\WAMP  en Windows con WAMP Server o /var/ en linux).
+The includes directory must be placed in the root (C: \ WAMP on Windows with WAMP Server or / var / on linux).
 
-Funcional módulo de Reportes (Lista de usuarios de Userman, Hotspot Active, Address List y Queue Simple) con respectiva capacidad para exportación en CSV,XLS, PDF y demás. Interpreta los datos desde bps y los muestra en Mbps para su fácil uso.
+Functional Reports module (Userman User List, Active Hotspot, Address List and Simple Queue) with respective capacity for export in CSV, XLS, PDF and others. Interprets data from bps and displays it in Mbps for easy use.
 
-Funional módulo de creación de usuarios (por medio de Queue Simple y Usermanager con asignación de perfil) 
-La creación por Queue Simple realiza cálculo automático, solo debe ingresarse la tasa de descarga en Kbps y de acuerdo al segmento el sistema le asigna prioridad y tasa de subida (por ejemplo 1024k en segmento dedicado tiene prioridad 1 y 1024k de subida, mientras que un residencial tiene 1024k en prioridad 8 con 256k de subida).
-Tanto Usermanager como Queue Simple tiene verificación (Si usuario ya existe no lo crea) en el caso de Queue por medio de la IP y en usermanager por medio de usuario
-El modulo de Usermanager crea automaticamente el usuario y la contraseña tomando los datos del cliente ingresados en el formulario.
+Functional user creation module (by means of Simple Queue and Usermanager with profile assignment) Creation by Simple Queue performs automatic calculation, only the download rate in Kbps must be entered and according to the segment the system assigns priority and rate of upload (for example 1024k in dedicated segment has priority 1 and 1024k upload, while a residential has 1024k in priority 8 with 256k upload). Both Usermanager and Simple Queue have verification (If user already exists, do not create it) in the case of Queue through IP and in usermanager through user The Usermanager module automatically creates the username and password taking the customer data entered in the form.
 
-Funcional estado general (interfaces y salud del dispositivo).
+Functional general status (interfaces and device health).
 
-Se integra con base de datos y control de acceso por medio de PHP - MySQL, integrada en directorio includes.
+It integrates with database and access control through PHP - MySQL, integrated in includes directory.
 
-#Capturas de Pantalla
+#Screenshots
 
 Login
 ![Alt text](img/review/uno.png "Login Sitio")
