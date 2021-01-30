@@ -17,20 +17,20 @@ It integrates with database and access control through PHP - MySQL, integrated i
 Login
 ![Alt text](img/review/uno.png "Login Sitio")
 
-Inicio
+Home
 ![Alt text](img/review/dos.png "Inicio Sitio")
 
-Estado Interfaces
+Interfaces
 ![Alt text](img/review/tres.png "Estado Interfaces")
 
-Estado General
+General
 ![Alt text](img/review/cuatro.png "Estado General")
 
-Listado Usuarios Usermanager
+Users Usermanager
 ![Alt text](img/review/cinco.png "Lista Usermanager")
 
-Creacion Usuario Usermanager para PPPoE o Hotspot
+New User - Usermanager - PPPoE Hotspot
 ![Alt text](img/review/seis.png "Creacion Usermanager")
 
-Creacion Usuario Queue con Validación de IP
+New user Queue with IP validation
 ![Alt text](img/review/siete.png "Creacion Usuario Queue")
